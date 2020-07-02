@@ -1,0 +1,249 @@
+/* With many thanks to Brian Jensen, John Skeen, Pedro de Braganca Cabral, Tristan Shipp and Sam Atkinson for the use of code snippets*/
+
+* {  
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #3b4b4b;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #087dac;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+}
+
+}
+
+img {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+}
+
+.main-nav li:hover {
+    background-color: #3eb0dd;
+    border-radius: 25px;
+    color: white;
+}
+
+.main-header,
+footer {
+    background-color: #f2eb7b;
+    padding: 15px 0;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #f2eb7b;
+    border-radius: 25px;
+    background-color: white;
+    padding: 10px;
+} 
+
+.main-nav {
+    padding: 15px;
+}
+
+hr {
+    width: 90%;
+    color: #f4f4f75b;
+  }
+
+.top a:hover {
+    color: white;
+}
+
+.full {
+    display: none;
+}
+
+.name,
+.footer-nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name {
+    float: left;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.top {
+    text-align: right;
+    font-weight: bold;
+    font-size: .9em;
+    text-transform: uppercase;
+    padding-right: 15px;
+}
+
+.top,
+.footer-nav li:last-child {
+    margin-right: 0px;
+}
+
+/* =============================
+Media Queries
+============================= */
+
+@media (min-width: 769px) {
+
+h1 {
+    padding: 15px 0;
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+.main-header,
+.main-nav,
+.footer-nav,
+.row {
+    display: flex;
+}
+
+.main-header {
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header p {
+    text-align: left;
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.profile {
+    width: 80%;
+}
+
+.top {
+    display: none;
+}
+
+.full {
+    display: inline-flex;
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.full a:hover {
+    color: white;
+}
+
+.name,
+.footer-nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    margin-left: 30px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    flex-grow: 1;
+    width: 50%;
+}
+
+}
+
+@media (min-width: 1025px) {
+
+
+.main-header,
+.main-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1 {
+    padding-left: 62px;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+li {
+    font-size: 1.25em;
+}
+
+.profile {
+    width: 60%;
+}
+
+.main-nav {
+    padding-right: 59px;
+}
+
+.wrapper {
+    flex-grow: 1;
+    width: 33%;
+}
+
+
+
+}
+
+
+
+
+
+
